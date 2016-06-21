@@ -107,8 +107,8 @@ def win():
     # finished matches
 
     matches = {'finished': {
-        'A': {('FRA', 'ROU'): (2, 1), ('ALB', 'SWI'): (0, 1), ('ROU', 'SWI'): (1, 1), ('FRA', 'ALB'): (2, 0)},
-        'B': {('WAL', 'SVK'): (2, 1), ('RUS', 'SVK'): (1, 2), ('ENG', 'RUS'): (1, 1), ('ENG', 'WAL'): (2, 1)},
+        'A': {('FRA', 'ROU'): (2, 1), ('ALB', 'SWI'): (0, 1), ('ROU', 'SWI'): (1, 1), ('FRA', 'ALB'): (2, 0),('ROU', 'ALB'): (0, 1), ('FRA', 'SWI'): (0, 0)},
+        'B': {('WAL', 'SVK'): (2, 1), ('RUS', 'SVK'): (1, 2), ('ENG', 'RUS'): (1, 1), ('ENG', 'WAL'): (2, 1), ('ENG', 'SVK'): (0, 0), ('RUS', 'WAL'): (0, 3)},
         'C': {('POL', 'NIR'): (1, 0), ('GER', 'UKR'): (2, 0), ('UKR', 'NIR'): (0, 2), ('POL', 'GER'): (0, 0)},
         'D': {('TUR', 'CRO'): (0, 1), ('ESP', 'CZE'): (1, 0), ('CZE', 'CRO'): (2, 2), ('ESP', 'TUR'): (3, 0)},
         'E': {('IRL', 'SWE'): (1, 1), ('BEL', 'ITA'): (0, 2), ('ITA', 'SWE'): (1, 0), ('BEL', 'IRL'): (3, 0)},
