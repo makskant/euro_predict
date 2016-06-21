@@ -1,1 +1,1 @@
-# euro_predict
+# By vitaliyradchenko
