@@ -1,1 +1,2 @@
-# euro_predict
+# By vitaliyradchenko
+assisting: makskant
